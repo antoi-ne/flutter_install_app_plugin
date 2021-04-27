@@ -4,7 +4,7 @@ import 'dart:html' as html;
 
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:platform_detect/platform_detect.dart';
+import 'package:platform_detect2/platform_detect2.dart';
 
 class FlutterInstallAppPlugin {
   static void registerWith(Registrar registrar) {
