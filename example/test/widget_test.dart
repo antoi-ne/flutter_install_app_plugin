@@ -12,7 +12,7 @@ void main() {
     expect(
         find.byWidgetPredicate(
           (Widget widget) =>
-              widget is Text && widget.data.startsWith('Install App'),
+              widget is Text && widget.data!.startsWith('Install App'),
         ),
         findsOneWidget);
   });
